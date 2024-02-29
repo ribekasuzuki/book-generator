@@ -1,0 +1,43 @@
+body {
+    background-color: lightpink;
+}
+div {
+    border: 2px;
+    border-color: blueviolet;
+    display: block;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    border-style: double;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #CD5699;
+}
+p {
+    text-align: center;
+    padding: 5px;
+}
+#random-book {
+    border-style: double;
+    background-color: #8EC7D2;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    visibility: hidden;
+}
+
+button {
+   display: block;
+   margin: 0 auto;
+
+}
+
+#another-option {
+    visibility: hidden;
+}
+
